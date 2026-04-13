@@ -17,7 +17,7 @@ The development and refactoring process was highly collaborative, utilizing the 
 * **Claude**
 
 ## Primary Development Prompt
-*"Convert the provided mobile prototype into a responsive desktop web application for the Alumni Knights' Hub. Refactor the existing Meteor.js framework into a clean, dependency-free Vanilla JavaScript architecture. Implement a minimalist flat UI design, replace heavy gradients with solid colors, and remove biometric/alert overhead. Ensure the logic uses custom state management within a single app.js file and styling within index.html."*
+*"Convert the provided mobile prototype into a responsive desktop web application for the Alumni Knights' Hub. Refactor the existing mobile app into a clean, dependency-free Vanilla JavaScript architecture. Implement a minimalist flat UI design, replace heavy gradients with solid colors, and remove biometric/alert overhead. Ensure the logic uses custom state management within a single app.js file and styling within index.html."*
 
 ## Visual Evidence
 <img width="1919" height="859" alt="Image" src="https://github.com/user-attachments/assets/1eb444f6-1bcc-4ee8-8486-48790cf72e37" />
