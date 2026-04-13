@@ -8,6 +8,9 @@ The Alumni Knights' Hub is a web application designed to digitize and streamline
 ## Installation
 Since this version is built with Vanilla JavaScript, no complex server setup or package managers (like Node.js or Meteor) are required:
 1. Clone or download the project repository.
+ ```bash
+    git clone https://github.com/YakumoNeruh/firstattempt2026_ignacio.git
+```  
 2. Ensure `index.html`, `app.js`, and the logo asset (`aknight-01.png`) are placed in the same root directory.
 3. Open `index.html` directly in any modern web browser to view the application.
 
