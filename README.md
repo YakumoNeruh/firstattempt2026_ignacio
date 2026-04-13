@@ -1,44 +1,24 @@
-# Alumni Knights' Hub — Vanilla JS Edition
+# Alumni Portal
 **Developer:** Ignacio
 **Institution:** Ateneo de Davao University
 
-## 📌 Project Overview
-The **Alumni Knights' Hub** is a centralized web platform designed for the Ateneo de Davao University alumni community. It provides a secure, digital environment for alumni to request academic documents (transcripts, diplomas, certifications), track processing status in real-time, and manage their verified academic profiles.
+## Project Details
+The Alumni Knights' Hub is a web application designed to digitize and streamline the document request process for the Ateneo de Davao University registrar. Originally conceptualized as a mobile prototype, this project converts the design into a responsive desktop web application. This iteration features a minimalist flat UI design and is built entirely using Vanilla JavaScript, HTML5, and CSS3, removing previous dependencies on Meteor.js and NuxtJS for a lightweight, dependency-free experience.
 
-This version has been refactored from the original Meteor.js/Nuxt framework into **Vanilla JavaScript**, optimized for performance, simplicity, and ease of deployment without external heavy dependencies.
+## Installation
+Since this version is built with Vanilla JavaScript, no complex server setup or package managers (like Node.js or Meteor) are required:
+1. Clone or download the project repository.
+2. Ensure `index.html`, `app.js`, and the logo asset (`aknight-01.png`) are placed in the same root directory.
+3. Open `index.html` directly in any modern web browser to view the application.
 
-## 🎨 Design Philosophy (Refined)
-The interface has been updated to a **Minimalist Flat UI** style:
-* **Crisp Typography:** Utilizing the Inter font family for maximum readability.
-* **Soft Color Palette:** Deeper blues and clean grays replacing high-contrast gradients for a modern, professional aesthetic.
-* **Reduced Clutter:** Intentional removal of non-essential features like complex biometrics and redundant alerts to focus on user task completion.
-* **Clean Separation:** Clear distinction between the Alumni (Student) portal and the Staff (Registrar) management view.
+## AI Tools Utilized
+The development and refactoring process was highly collaborative, utilizing the following AI tools to streamline coding, UI design, and framework migration:
+* **Google Gemini**
+* **Claude**
 
-## 🛠️ Technical Implementation
-Unlike previous iterations, this version uses zero external frameworks:
-* **HTML5 & CSS3:** Custom styling using CSS variables for a themeable design system.
-* **Vanilla JavaScript:** Modular state management handling UI transitions, modal logic, and views without a virtual DOM.
-* **Font Awesome:** Lightweight icon integration for intuitive navigation.
+## Primary Development Prompt
+*"Convert the provided mobile prototype into a responsive desktop web application for the Alumni Knights' Hub. Refactor the existing Meteor.js framework into a clean, dependency-free Vanilla JavaScript architecture. Implement a minimalist flat UI design, replace heavy gradients with solid colors, and remove biometric/alert overhead. Ensure the logic uses custom state management within a single app.js file and styling within index.html."*
 
-## 🚀 Getting Started
-Since this project is built with Vanilla JS, no installation of Node.js or Meteor is required for local viewing.
+## Visual Evidence
 
-1.  **Clone/Download** the repository.
-2.  Ensure `index.html`, `app.js`, and `aknight-01.png` are in the same directory.
-3.  Open `index.html` in any modern web browser.
 
-## 📂 Key Features
-### Alumni Portal
-* **Dashboard:** Overview of verified records and recent notifications.
-* **Document Request:** streamlined multi-step ordering process.
-* **Processing Tracker:** Visual stepper and timeline for monitoring registrar progress.
-* **Academic Passport:** A verified profile view summarizing degrees and honors.
-
-### Registrar Management (Staff)
-* **Operations Dashboard:** High-level stats on pending verifications and today's volume.
-* **Document Log:** Searchable database of all historical and active requests.
-* **Payment Verification:** Dedicated workflow for confirming GCash/Bank transactions.
-* **Status Control:** Ability to move requests through the pipeline (Submitted → Verified → Processed → Ready).
-
-## 🤖 Development Tools
-This project utilized prompt-based engineering and AI collaboration (including Google Gemini) to assist in refactoring logic and ensuring the original design intent was preserved during the framework transition.
