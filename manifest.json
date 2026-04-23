@@ -1,0 +1,21 @@
+{
+  "name": "Alumni Knights Hub - ADDU",
+  "short_name": "AlumniHub",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#003366",
+  "theme_color": "#003366",
+  "description": "Digitized document request portal for Ateneo de Davao University Alumni.",
+  "icons": [
+    {
+      "src": "aknight-01.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "aknight-01.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
